@@ -1,0 +1,29 @@
+unit U_atv09;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  Tfmr_principal = class(TForm)
+    lb_valor: TLabel;
+    lb_salario: TLabel;
+    btn_calcular: TButton;
+    Edit1: TEdit;
+    txt_salario: TEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fmr_principal: Tfmr_principal;
+  salFim, salBru: real;
+implementation
+
+{$R *.dfm}
+
+end.

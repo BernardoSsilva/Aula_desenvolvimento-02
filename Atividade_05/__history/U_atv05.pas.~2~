@@ -1,0 +1,33 @@
+unit U_atv05;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  Tfmr_principal = class(TForm)
+    Label1: TLabel;
+    lb_parcelas: TLabel;
+    lb_sal: TLabel;
+    txt_valEmp: TEdit;
+    txt_parc: TEdit;
+    txt_sal: TEdit;
+    btn_aprov: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fmr_principal: Tfmr_principal;
+  sal, valemp : double;
+
+
+implementation
+
+{$R *.dfm}
+
+end.
