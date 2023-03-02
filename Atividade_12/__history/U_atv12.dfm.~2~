@@ -1,0 +1,63 @@
+object fmr_principal: Tfmr_principal
+  Left = 0
+  Top = 0
+  Caption = 'main'
+  ClientHeight = 413
+  ClientWidth = 411
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -21
+  Font.Name = 'Tahoma'
+  Font.Style = [fsBold]
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 25
+  object lb_altura: TLabel
+    Left = 32
+    Top = 32
+    Width = 192
+    Height = 25
+    Caption = 'Indique sua altura'
+  end
+  object lb_peso: TLabel
+    Left = 32
+    Top = 264
+    Width = 337
+    Height = 25
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clLime
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+  end
+  object txt_altura: TEdit
+    Left = 248
+    Top = 29
+    Width = 121
+    Height = 33
+    TabOrder = 0
+  end
+  object rg_sexo: TRadioGroup
+    Left = 40
+    Top = 88
+    Width = 329
+    Height = 145
+    Caption = 'Sexo'
+    ItemIndex = 0
+    Items.Strings = (
+      'Masculino'
+      'Feminino')
+    TabOrder = 1
+  end
+  object btn_calc: TButton
+    Left = 96
+    Top = 320
+    Width = 233
+    Height = 49
+    Caption = 'Calcular'
+    TabOrder = 2
+    OnClick = btn_calcClick
+  end
+end

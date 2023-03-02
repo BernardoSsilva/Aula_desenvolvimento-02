@@ -1,0 +1,79 @@
+object fmr_principal: Tfmr_principal
+  Left = 0
+  Top = 0
+  Caption = 'Main'
+  ClientHeight = 394
+  ClientWidth = 559
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -21
+  Font.Name = 'Tahoma'
+  Font.Style = [fsBold]
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 25
+  object lb_nota1: TLabel
+    Left = 40
+    Top = 40
+    Width = 229
+    Height = 25
+    Caption = 'Digite a primeira nota'
+  end
+  object lb_nota2: TLabel
+    Left = 40
+    Top = 104
+    Width = 229
+    Height = 25
+    Caption = 'Digite a segunda nota'
+  end
+  object lb_notaE: TLabel
+    Left = 40
+    Top = 176
+    Width = 243
+    Height = 25
+    Caption = 'Digite a nota do exame'
+    Visible = False
+  end
+  object txt_nota1: TEdit
+    Left = 288
+    Top = 37
+    Width = 177
+    Height = 33
+    TabOrder = 0
+  end
+  object txt_nota2: TEdit
+    Left = 288
+    Top = 101
+    Width = 177
+    Height = 33
+    TabOrder = 1
+  end
+  object txt_notaE: TEdit
+    Left = 289
+    Top = 173
+    Width = 177
+    Height = 33
+    TabOrder = 2
+    Visible = False
+  end
+  object btn_calculo: TButton
+    Left = 40
+    Top = 272
+    Width = 177
+    Height = 57
+    Caption = 'calcular media'
+    TabOrder = 3
+    OnClick = btn_calculoClick
+  end
+  object btn_recalc: TButton
+    Left = 289
+    Top = 272
+    Width = 177
+    Height = 57
+    Caption = 'recalcular'
+    TabOrder = 4
+    Visible = False
+    OnClick = btn_recalcClick
+  end
+end

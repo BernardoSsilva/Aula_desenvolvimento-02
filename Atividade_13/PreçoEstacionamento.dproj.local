@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/23 11:47:00.000.021,=C:\Users\Terceiros Anos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/23 11:47:31.000.181,C:\Users\Terceiros Anos\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\354-2023\brenio720ML\Aula02\atividades\Atividade_13\U_atv13.pas</Transaction>
+    <Transaction>2023/02/23 11:47:31.000.181,C:\Users\Terceiros Anos\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\354-2023\brenio720ML\Aula02\atividades\Atividade_13\U_atv13.dfm</Transaction>
+    <Transaction>2023/02/23 11:47:39.000.954,C:\Users\Terceiros Anos\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\354-2023\brenio720ML\Aula02\atividades\Atividade_13\PreçoEstacionamento.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
